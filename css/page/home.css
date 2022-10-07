@@ -1,0 +1,17 @@
+.img1::after {
+    content: 'Directed evolution of tyrosyl-tRNA synthetase';
+    width: 1000px;
+    height: 400px;
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: #aac2c6 10px solid;
+    color: #aac2c6;
+    /* letter-spacing: 30px; */
+    font: 200 45px 'font';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
