@@ -233,27 +233,24 @@
     border-bottom: 1px white solid;
 }
 
-.footer-copy {
+.footer-row {
+    height: 25%;
     width: 100%;
-    height: 285px;
-    background-color: white;
-    z-index: 40;
-    display: flex;
-    flex-direction: column;
-}
-
-.row {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+    position: absolute;
+    bottom: 0;
     text-align: center;
     align-items: center;
     justify-content: center;
+    color: white;
+    z-index: 20;
 }
 
-.row .foimg p {
+.footer-row p {
     display: block;
-    margin-right: 0px;
-    margin-top: 5px;
+    color: white;
+    position: absolute;
+    bottom: 3em;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
 }

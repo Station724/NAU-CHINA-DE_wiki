@@ -95,6 +95,7 @@
     border-radius: 5px;
     height: auto;
     z-index: 2;
+    background-color: white;
 }
 
 .longli {
@@ -137,7 +138,8 @@
     max-width: 1030px;
     overflow-x: hidden;
     transform: translateY(0px);
-    background-color: rgb(255, 250, 240, 0.6);
+    /* background-color: rgb(255, 250, 240, 0.6); */
+    background-color: white;
     transition: .3s;
     padding: 50px;
     border: 1px solid #000;
