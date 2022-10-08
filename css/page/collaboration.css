@@ -1,6 +1,6 @@
 .img1::after {
     content: 'COLLABORATION';
-    width: 500px;
+    width: 1000px;
     height: 200px;
     border-radius: 3px;
     position: absolute;
@@ -10,10 +10,11 @@
     border: #fff 10px solid;
     color: #fff;
     letter-spacing: 30px;
-    font: 100 70px 'font';
+    font: 200 70px 'font';
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .img1 {

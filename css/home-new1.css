@@ -26,9 +26,9 @@ body .shell-main-lbt {
     align-items: center;
     height: 650px;
     background-color: #978989;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     overflow: hidden;
-    background-image: url("../image/未命名的设计\ \(2\).gif");
+    background-image: url("../image/turn.gif");
     background-color: #fff;
     background-repeat: no-repeat;
     background-size: contain;
@@ -56,9 +56,9 @@ body .shell-main-lbt .images .img {
 }
 
 body .shell-main-lbt .images .img .shell-main-lbt-word {
-    width: 600px;
+    width: 800px;
     overflow-x: hidden;
-    height: 200px;
+    height: 100px;
     /* background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1)); */
     backdrop-filter: blur(0px);
     display: flex;
@@ -82,6 +82,7 @@ body .shell-main-lbt .images .img .shell-main-lbt-word span {
     transition: 0.1s;
     /* transition-delay: .1s; */
     transform: translate(-620px);
+    background-color: rgb(250, 235, 215);
 }
 
 body .shell-main-lbt .min-images {
@@ -116,16 +117,15 @@ body .shell-main-header {
     height: 700px;
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     overflow: hidden;
     align-items: center;
     position: relative;
-    margin-bottom: 150px;
 }
 
 body .shell-main-header-left {
-    width: 60%;
-    height: 90%;
+    width: 100%;
+    height: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +138,7 @@ body .shell-main-header-left {
 body .shell-main-header-left::before {
     content: '';
     width: 250px;
-    height: 250px;
+    height: 200px;
     border: 20px solid rgba(0, 255, 255, 0.3);
     position: absolute;
     bottom: -30px;
@@ -178,7 +178,9 @@ body .shell-main-header-left-footer p {
 
 body .shell-main-header-left-top {
     display: flex;
-    position: relative;
+    position: absolute;
+    left: 80px;
+    top: 220px;
     width: 85%;
     transform: translateY(400px);
     opacity: 0;
@@ -199,8 +201,10 @@ body .shell-main-header-left-top span {
 }
 
 body .shell-main-header-left-bottom {
-    width: 85%;
-    height: auto;
+    width: 50%;
+    position: absolute;
+    left: 100px;
+    top: 360px;
     transform: translateY(400px);
     transition: .8s;
     transition-delay: .2s;
@@ -208,8 +212,8 @@ body .shell-main-header-left-bottom {
 }
 
 body .shell-main-header-right {
-    width: 40%;
-    height: 95%;
+    width: 50%;
+    height: 75%;
     background-size: cover;
     /* background-image: url("../image/图片1.png"); */
     border: 5px solid #000;
@@ -226,9 +230,8 @@ body .shell-main-content {
     width: 100%;
     height: auto;
     padding: 20px 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     overflow: hidden;
-
 }
 
 body .shell-main-content-left {
@@ -250,7 +253,7 @@ body .shell-main-content-left::before {
     content: '';
     width: 200px;
     height: 20px;
-    background-color:  #aac2c6;
+    background-color: #aac2c6;
     position: absolute;
     bottom: -30px;
     right: 0;
@@ -305,10 +308,11 @@ body .shell-main-content-left-fans ul li span {
     line-height: 80px;
 }
 
-
 body .shell-main-content-right {
     width: 300px;
     height: 100%;
+    display: flex;
+    justify-content: center;
     padding: 0 60px;
 }
 
@@ -437,40 +441,57 @@ body .shell-main-bottom-bottom ul li span {
 body .shell-main-image {
     width: 100%;
     display: flex;
-    height: 700px;
+    height: 1000px;
     margin: 10px 0;
     position: relative;
     justify-content: center;
     align-items: center;
+    line-height: 30px;
+    background-image: linear-gradient(to top left, #2e8c98 50%, white 50%);
 }
 
 body .shell-main-image h2 {
-    font-size: 30px;
+    font-size: 40px;
     color: turquoise;
-}
-
-body .shell-main-image span {
-    font-size: 20px;
-}
-
-body .shell-main-image p {
-    font-size: 30px;
-    writing-mode: lr-tb;
-    font-size: 17px;
 }
 
 body .shell-main-image-left {
     position: absolute;
-    left: 100px;
-    top: 200px;
-    width: 320px;
+    left: 30px;
+    top: 40px;
+    width: 1000px;
+    color: #2e8c98;
+    line-height: 50px;
+}
+
+body .shell-main-image-left h2 {
+    margin-bottom: 30px;
+    color: #2e8c98;
+}
+
+body .shell-main-image-left span {
+    font-size: 30px;
 }
 
 body .shell-main-image-right {
     position: absolute;
-    right: 5px;
-    top: 675px;
-    width: 600px;
+    right: 10px;
+    top: 550px;
+    width: 900px;
+    color: white;
+    line-height: 30px;
+    line-height: 50px;
+}
+
+body .shell-main-image-right h2 {
+    text-align: right;
+    display: block;
+    margin-right: 100px;
+    margin-bottom: -30px;
+}
+
+body .shell-main-image-right span {
+    font-size: 30px;
 }
 
 body .shell-main-image-auto {
@@ -635,7 +656,7 @@ right: -190px;
         height: 500px;
     }
     body .shell-main-lbt {
-        /* height: 300px; */
+        height: 200px;
     }
 }
 
@@ -681,60 +702,6 @@ body .shell-main-footer {
     top: 300px;
     right: 100px;
     z-index: 100;
-}
-
-.turn-container .turn-line {
-    width: 50px;
-    height: 10px;
-    /* 绝对定位 */
-    position: absolute;
-    /* 结合自定义属性--d，计算top */
-    top: calc(50px * var(--d));
-    /* 执行动画：动画名 时长 线性 无限播放 */
-    animation: roll 4s linear infinite;
-    /* 结合自定义属性--d，计算动画延迟时间 */
-    animation-delay: calc(0.3s * var(--d));
-}
-
-
-/* 两边两个圆的统一样式 */
-
-.turn-container .turn-line::before,
-.turn-container .turn-line::after {
-    content: "";
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-}
-
-
-/* 左圆 */
-
-.turn-container .turn-line::before {
-    background-color: #e60116;
-    position: absolute;
-    left: 0;
-}
-
-
-/* 右圆 */
-
-.turn-container .turn-line::after {
-    background-color: #0588da;
-    position: absolute;
-    right: 0;
-}
-
-
-/* 中间的线 */
-
-.turn-container .turn-line span {
-    width: 40.5px;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    left: 10px;
-    top: 3px;
 }
 
 
